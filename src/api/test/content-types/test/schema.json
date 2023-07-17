@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "string": {
+      "type": "string"
+    },
+    "relation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::relation.relation"
+    }
+  }
+}
